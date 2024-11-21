@@ -400,6 +400,24 @@ declare namespace App {
       };
       route: Record<I18nRouteKey, string>;
       page: {
+        bannerManagement: {
+          form: {
+            add: string;
+            edit: string;
+            title: string;
+            imgUrl: string;
+            updateTime: string;
+            careateTime: string;
+            status: string;
+            sort: string;
+            remainingTime: string;
+            upload: string;
+          };
+          statusType: {
+            listed: string;
+            delisted: string;
+          };
+        };
         login: {
           common: {
             loginOrRegister: string;

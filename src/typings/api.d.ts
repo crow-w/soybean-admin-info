@@ -85,6 +85,24 @@ declare namespace Api {
     }
   }
 
+  // * namespace BannerManagement
+  // *
+  // * backend api module: "bannerManage"
+  // */
+  namespace BannerManagement {
+    type BannerList = Common.PaginatingQueryRecord<Banner>;
+
+    type Banner = Common.CommonRecord<{
+      id: string;
+      sort: number;
+      imgUrl: string;
+      status: Common.EnableStatus;
+      updateTime: string;
+      createTime: string;
+      remainingTime: number; // 上架剩余时长，单位可以是秒、分钟、小时等
+    }>;
+  }
+
   /**
    * namespace SystemManage
    *

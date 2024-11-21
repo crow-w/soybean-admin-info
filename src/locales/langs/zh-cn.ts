@@ -196,6 +196,7 @@ const local: App.I18n.Schema = {
     'multi-menu_second': '菜单二',
     'multi-menu_second_child': '菜单二子菜单',
     'multi-menu_second_child_home': '菜单二子菜单首页',
+    'banner-management': '轮播图管理',
     exception: '异常页',
     exception_403: '403',
     exception_404: '404',
@@ -221,6 +222,24 @@ const local: App.I18n.Schema = {
     plugin_typeit: '打字机'
   },
   page: {
+    bannerManagement: {
+      form: {
+        add: '新增轮播图',
+        edit: '编辑轮播图',
+        title: '轮播图列表',
+        imgUrl: '图片地址',
+        updateTime: '更新时间',
+        careateTime: '创建时间',
+        status: '状态',
+        sort: '排序',
+        remainingTime: '上架剩余时长',
+        upload: '上传图片'
+      },
+      statusType: {
+        listed: '已上架',
+        delisted: '已下架'
+      }
+    },
     login: {
       common: {
         loginOrRegister: '登录 / 注册',

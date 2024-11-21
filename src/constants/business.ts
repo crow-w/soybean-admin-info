@@ -27,3 +27,10 @@ export const menuIconTypeRecord: Record<Api.SystemManage.IconType, App.I18n.I18n
 };
 
 export const menuIconTypeOptions = transformRecordToOption(menuIconTypeRecord);
+
+export const bannerTypeRecord: Record<Api.Common.EnableStatus, App.I18n.I18nKey> = {
+  '1': 'page.bannerManagement.statusType.listed',
+  '2': 'page.bannerManagement.statusType.delisted'
+};
+
+export const bannerTypeOptions = transformRecordToOption(menuTypeRecord);

@@ -96,6 +96,15 @@ export const generatedRoutes: GeneratedRoute[] = [
     ]
   },
   {
+    name: 'banner-management',
+    path: '/banner-management',
+    component: 'layout.base$view.banner-management',
+    meta: {
+      title: 'banner-management',
+      i18nKey: 'route.banner-management'
+    }
+  },
+  {
     name: 'function',
     path: '/function',
     component: 'layout.base',
